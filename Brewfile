@@ -35,6 +35,7 @@
  cask "firefox"  # Web browser
  cask "github"  # GitHub Desktop
  cask "google-chrome"  # Web browser
+ cask "iterm2"  # terminal
  cask "vivaldi" # Vivaldi Browser
  cask "pastebot"  # Clipboard manager
  cask "the-unarchiver"  # File extraction utility
