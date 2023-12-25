@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0x600003b8bd80" type="list" content-type="object" content-struct-name="db.mgmt.Connection">
+    <value type="object" struct-name="db.mgmt.Connection" id="248DE739-9D30-4B5C-8DDC-2EC1E3895AA4" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@localhost:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="0x600003bbcf60" type="dict" key="modules"/>
+      <value _ptr_="0x600003bbcf00" type="dict" key="parameterValues">
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">localhost</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema"></value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">root</value>
+      </value>
+      <value type="string" key="name">Local instance 3306</value>
+      <link type="object" struct-name="GrtObject" key="owner">577E12C6-EF5A-4FF8-AE04-63B4EC8CC102</link>
+    </value>
+    <value type="object" struct-name="db.mgmt.Connection" id="D9D99239-E1BB-43A9-A9FE-3A19FE97EAFB" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@temp-prod-for-tag-migration-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="0x600003bbde60" type="dict" key="modules"/>
+      <value _ptr_="0x600003bbe5e0" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">docscores</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">temp-prod-for-tag-migration-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com</value>
+        <value type="int" key="lastConnected">1684360076</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema">docscores</value>
+        <value type="string" key="serverVersion">5.7.12</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">docscoresuser</value>
+      </value>
+      <value type="string" key="name">temp prod copy</value>
+      <link type="object" struct-name="GrtObject" key="owner">577E12C6-EF5A-4FF8-AE04-63B4EC8CC102</link>
+    </value>
+    <value type="object" struct-name="db.mgmt.Connection" id="7DD8FE4F-98C9-4E5F-BE52-67D7D4BB417F" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@transparency-prod-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="0x600003bbe640" type="dict" key="modules"/>
+      <value _ptr_="0x600003bbe6a0" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">docscores</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">transparency-prod-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com</value>
+        <value type="int" key="lastConnected">1697745976</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema">docscores</value>
+        <value type="string" key="serverVersion">5.7.12</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">docscoresuser</value>
+      </value>
+      <value type="string" key="name">Prod Transparency</value>
+      <link type="object" struct-name="GrtObject" key="owner">577E12C6-EF5A-4FF8-AE04-63B4EC8CC102</link>
+    </value>
+    <value type="object" struct-name="db.mgmt.Connection" id="C0E1073C-8A17-41C2-A793-AB07EFD23AEA" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@transparency-test-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="0x600003bbe700" type="dict" key="modules"/>
+      <value _ptr_="0x600003bbe760" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">docscores</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">transparency-test-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com</value>
+        <value type="int" key="lastConnected">1697127842</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema">docscores</value>
+        <value type="string" key="serverVersion">5.7.12</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">docscoresadmin</value>
+      </value>
+      <value type="string" key="name">Test Transparency</value>
+      <link type="object" struct-name="GrtObject" key="owner">577E12C6-EF5A-4FF8-AE04-63B4EC8CC102</link>
+    </value>
+    <value type="object" struct-name="db.mgmt.Connection" id="278FE895-E3CA-4B59-B30D-B169D8FC25AE" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@transparency-stage-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="0x600003bbe7c0" type="dict" key="modules"/>
+      <value _ptr_="0x600003bbe820" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">docscores</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">transparency-stage-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com</value>
+        <value type="int" key="lastConnected">1697744338</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema">docscores</value>
+        <value type="string" key="serverVersion">5.7.12</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">docscoresuser</value>
+      </value>
+      <value type="string" key="name">Stage Transparency</value>
+      <link type="object" struct-name="GrtObject" key="owner">577E12C6-EF5A-4FF8-AE04-63B4EC8CC102</link>
+    </value>
+    <value type="object" struct-name="db.mgmt.Connection" id="492A1889-D7DC-4BAD-AA5C-BB91425519D1" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@transparency-dev.cnuznriibgfw.us-east-1.rds.amazonaws.com:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="0x600003bbed00" type="dict" key="modules"/>
+      <value _ptr_="0x600003bbed60" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">docscores</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">transparency-dev.cnuznriibgfw.us-east-1.rds.amazonaws.com</value>
+        <value type="int" key="lastConnected">1691528515</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema">docscores</value>
+        <value type="string" key="serverVersion">5.7.38-log</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">docscoresadmin</value>
+      </value>
+      <value type="string" key="name">new-transparency-dev</value>
+      <link type="object" struct-name="GrtObject" key="owner">577E12C6-EF5A-4FF8-AE04-63B4EC8CC102</link>
+    </value>
+    <value type="object" struct-name="db.mgmt.Connection" id="1696EE89-92E4-4348-A96E-6073CF7ABF1A" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@reviewtrackers-db-test.cluster-cnuznriibgfw.us-east-1.rds.amazonaws.com:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="0x600003bbedc0" type="dict" key="modules"/>
+      <value _ptr_="0x600003bbe4c0" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">reviewtrackersDB</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">reviewtrackers-db-test.cluster-cnuznriibgfw.us-east-1.rds.amazonaws.com</value>
+        <value type="int" key="lastConnected">1692304853</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema">reviewtrackersDB</value>
+        <value type="string" key="serverVersion">8.0.23</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">docscoresadmin</value>
+      </value>
+      <value type="string" key="name">reviewtrackers-db-test</value>
+      <link type="object" struct-name="GrtObject" key="owner">577E12C6-EF5A-4FF8-AE04-63B4EC8CC102</link>
+    </value>
+    <value type="object" struct-name="db.mgmt.Connection" id="93B95E87-F06E-4CC1-9CEE-62801C230BCE" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@transparency-dev.cluster-cnuznriibgfw.us-east-1.rds.amazonaws.com:3306</value>
+      <value type="int" key="isDefault">1</value>
+      <value _ptr_="0x600003bbe520" type="dict" key="modules"/>
+      <value _ptr_="0x600003bbe580" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">docscores</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">transparency-dev.cluster-cnuznriibgfw.us-east-1.rds.amazonaws.com</value>
+        <value type="int" key="lastConnected">1699654693</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema">docscores</value>
+        <value type="string" key="serverVersion">5.7.12</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">docscoresadmin</value>
+      </value>
+      <value type="string" key="name">Dev-Transparency</value>
+      <link type="object" struct-name="GrtObject" key="owner">577E12C6-EF5A-4FF8-AE04-63B4EC8CC102</link>
+    </value>
+    <value type="object" struct-name="db.mgmt.Connection" id="A2DD15E8-8205-44A2-ADE4-8EBEA9F1787D" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@transparency-dev-jrusch-2-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="0x600003bbeac0" type="dict" key="modules"/>
+      <value _ptr_="0x600003bbeb20" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">docscores</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">transparency-dev-jrusch-2-cluster.cluster-cw84csxddzzg.us-east-1.rds.amazonaws.com</value>
+        <value type="int" key="lastConnected">1697134973</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema">docscores</value>
+        <value type="string" key="serverVersion">5.7.12</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">docscoresadmin</value>
+      </value>
+      <value type="string" key="name">temp-dev</value>
+      <link type="object" struct-name="GrtObject" key="owner">577E12C6-EF5A-4FF8-AE04-63B4EC8CC102</link>
+    </value>
+  </value>
+</data>

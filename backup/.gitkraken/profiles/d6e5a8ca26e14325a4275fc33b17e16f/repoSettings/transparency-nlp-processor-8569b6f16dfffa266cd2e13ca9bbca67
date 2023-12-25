@@ -1,0 +1,89 @@
+{
+  "pullRequests": {
+    "filters": [
+      {
+        "id": "e2c0b8b9-9889-457d-a37d-af80a1d9474e",
+        "filter": "author:johnrusch",
+        "name": "My Pull Requests",
+        "author": [
+          {
+            "not": false,
+            "values": [
+              "johnrusch"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7da241ad-fd1f-4919-90f6-87652dda5fc7",
+        "filter": "assignee:johnrusch",
+        "name": "Assigned To Me",
+        "assignee": [
+          {
+            "not": false,
+            "values": [
+              "johnrusch"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5c4c308f-ed6d-4b07-82f6-e2e990e8da5a",
+        "filter": "review-requested:johnrusch",
+        "name": "Awaiting My Review",
+        "review-requested": [
+          {
+            "not": false,
+            "values": [
+              "johnrusch"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bfe0f5c4-bcd6-495b-84b4-746ba9ba4dcd",
+        "filter": "",
+        "name": "All Pull Requests",
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  }
+}
