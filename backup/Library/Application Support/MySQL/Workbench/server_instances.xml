@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0x600003b8a220" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="25F5D1F7-A046-4D0B-98C3-5B6ED3AA08FC" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">248DE739-9D30-4B5C-8DDC-2EC1E3895AA4</link>
+      <value _ptr_="0x600003b9ca20" type="dict" key="loginInfo"/>
+      <value _ptr_="0x600003b9e8e0" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.config.path"></value>
+        <value type="string" key="sys.config.section">mysqld</value>
+        <value type="string" key="sys.preset">Custom</value>
+        <value type="string" key="sys.sudo"></value>
+        <value type="string" key="sys.system">macOS</value>
+      </value>
+      <value type="string" key="name">Local 3306</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="BDAD0551-DE4B-46C9-A74E-8D25D3D072B5" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">D9D99239-E1BB-43A9-A9FE-3A19FE97EAFB</link>
+      <value _ptr_="0x600003b95ce0" type="dict" key="loginInfo"/>
+      <value _ptr_="0x600003b95d40" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.sudo"></value>
+      </value>
+      <value type="string" key="name">temp prod copy</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="4A88F66C-5A08-4043-A9A5-F69135646DA2" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">7DD8FE4F-98C9-4E5F-BE52-67D7D4BB417F</link>
+      <value _ptr_="0x600003b959e0" type="dict" key="loginInfo"/>
+      <value _ptr_="0x600003b95980" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.sudo"></value>
+      </value>
+      <value type="string" key="name">Prod Transparency</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="560D502D-AC4C-4086-BE8F-12C941104A8C" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">C0E1073C-8A17-41C2-A793-AB07EFD23AEA</link>
+      <value _ptr_="0x600003b95920" type="dict" key="loginInfo"/>
+      <value _ptr_="0x600003b95da0" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">1</value>
+      </value>
+      <value type="string" key="name">Test Transparency</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="07556DDC-14ED-43EC-AA3B-5C1B8BA0DAB3" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">278FE895-E3CA-4B59-B30D-B169D8FC25AE</link>
+      <value _ptr_="0x600003b97060" type="dict" key="loginInfo"/>
+      <value _ptr_="0x600003b97000" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">1</value>
+      </value>
+      <value type="string" key="name">Stage Transparency</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="5FC5D252-337C-4C32-A424-635BD7BCCE81" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">492A1889-D7DC-4BAD-AA5C-BB91425519D1</link>
+      <value _ptr_="0x600003b96fa0" type="dict" key="loginInfo"/>
+      <value _ptr_="0x600003b97720" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.sudo"></value>
+      </value>
+      <value type="string" key="name">new-transparency-dev</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="A2479379-D914-4CF7-9613-F89BD08F5ED5" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">1696EE89-92E4-4348-A96E-6073CF7ABF1A</link>
+      <value _ptr_="0x600003b97d80" type="dict" key="loginInfo"/>
+      <value _ptr_="0x600003b97d20" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.sudo"></value>
+      </value>
+      <value type="string" key="name">reviewtrackers-db-test</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="0C45AD38-59FC-443F-B09C-52C47C6E96FB" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">93B95E87-F06E-4CC1-9CEE-62801C230BCE</link>
+      <value _ptr_="0x600003b97cc0" type="dict" key="loginInfo">
+        <value type="string" key="ssh.hostName"></value>
+        <value type="string" key="ssh.key">~/.ssh/ssh_private_key</value>
+        <value type="string" key="ssh.localPort">3306</value>
+        <value type="int" key="ssh.useKey">0</value>
+        <value type="string" key="ssh.userName">mysql</value>
+      </value>
+      <value _ptr_="0x600003b96160" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.sudo"></value>
+      </value>
+      <value type="string" key="name">Dev-Transparency</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="5069DF69-E045-49E3-9DDF-FF506CD8F200" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">A2DD15E8-8205-44A2-ADE4-8EBEA9F1787D</link>
+      <value _ptr_="0x600003b95f80" type="dict" key="loginInfo"/>
+      <value _ptr_="0x600003b95fe0" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">1</value>
+      </value>
+      <value type="string" key="name">temp-dev</value>
+    </value>
+  </value>
+</data>

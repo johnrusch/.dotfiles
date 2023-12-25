@@ -1,0 +1,31 @@
+{
+  "externalEditor": "VS Code",
+  "tabInfo": {
+    "permanentTabs": {
+      "PROJECTS": {
+        "selectedProject": null,
+        "closed": true
+      }
+    },
+    "selectedTabId": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+    "tabs": [
+      {
+        "id": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+        "type": "REPO",
+        "repoName": "transparency-nlp-processor",
+        "repoPath": "/Users/jrusch/Documents/code/transparency-nlp-processor/",
+        "skipWSLChecks": false
+      }
+    ]
+  },
+  "profileIcon": "gravatar",
+  "profileName": "Default Profile",
+  "userEmail": "35750236+johnrusch@users.noreply.github.com",
+  "userName": "John Rusch",
+  "gpg": {
+    "commitGpgSign": false,
+    "tagForceSignAnnotated": false
+  },
+  "organizationId": null,
+  "projects": {}
+}

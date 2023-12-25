@@ -1,0 +1,111 @@
+{
+  "lastUpgradeScriptRun": "v9.0.0",
+  "appId": "c277e34558a5ed7c39e9a3e3b4a17a3441837af8",
+  "userMilestones": {
+    "unregisteredId": "174d91cc-c514-4776-bbc3-12eb38ce5048",
+    "firstAppOpen": true,
+    "firstLoginRegister": true,
+    "firstProfileCreated": true,
+    "completedFirstRepoModal": true,
+    "completedNewUserOnboarding": true,
+    "firstRepoOpened": true
+  },
+  "sslWhitelist": [],
+  "lastReleaseNotesDisplayed": "9.1.0",
+  "aliases": {
+    "repo": {},
+    "tabs": {}
+  },
+  "registration": {
+    "email": "johnrusch7@gmail.com",
+    "name": "John Rusch",
+    "status": "activated",
+    "loginType": "github",
+    "date": "2023-02-10T22:06:47.860Z",
+    "EULA": {
+      "version": "8.3.1",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "e54cc1c3-1b29-46b4-ad08-616940bad58d",
+  "licensedFeatures": [
+    "pro",
+    "timelines:pro",
+    "suite:pro",
+    "boards:pro",
+    "trial",
+    "timelines:trial",
+    "suite:trial",
+    "boards:trial"
+  ],
+  "userFeatures": [
+    {
+      "name": "gitkraken"
+    },
+    {
+      "name": "cli"
+    },
+    {
+      "name": "activityStatus"
+    },
+    {
+      "name": "terminalInsideRepoTab"
+    },
+    {
+      "name": "gitBash"
+    },
+    {
+      "name": "changePriceEnabled"
+    },
+    {
+      "name": "gkApi"
+    },
+    {
+      "name": "velocityInClient_9_0_0"
+    },
+    {
+      "name": "disableAzureInsights"
+    }
+  ],
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/Users/jrusch/Documents/code/transparency-nlp-processor": {
+          "id": "openRepo-/Users/jrusch/Documents/code/transparency-nlp-processor",
+          "timestamps": [
+            1676066934369,
+            1676066972535
+          ],
+          "total": 2
+        }
+      }
+    }
+  },
+  "hasSeenTrialStartedModal": true,
+  "windowSettings": {
+    "x": -1,
+    "y": 38,
+    "width": 1251,
+    "height": 800,
+    "fullScreen": false,
+    "maximized": false
+  },
+  "repoDeepLinkMap": {
+    "437a15f92245cea82a2571116e3303870af40fe6": {
+      "paths": [
+        "/Users/jrusch/Documents/code/transparency-nlp-processor/"
+      ],
+      "pullUrls": {
+        "https://github.com/NationalResearchCorporation/transparency-nlp-processor.git": {
+          "paths": [
+            "/Users/jrusch/Documents/code/transparency-nlp-processor/"
+          ],
+          "name": "transparency-nlp-processor",
+          "hostName": "github.com",
+          "owner": "NationalResearchCorporation",
+          "hostingServiceType": "github"
+        }
+      }
+    }
+  }
+}
