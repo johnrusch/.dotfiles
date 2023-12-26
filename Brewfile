@@ -21,10 +21,8 @@
  brew "node"  # JavaScript runtime
  brew "nvm" 
  brew "openssl@1.1"  # Cryptography and SSL/TLS toolkit
- brew "pastebot"  # Clipboard manager
  brew "python"  # Latest Python 3.11 version
  brew "sqlite"  # C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine
- brew "the-unarchiver"  # File extraction utility
  brew "tmux"  # Terminal multiplexer
  brew "webp"  # Image format that provides lossless and lossy compression
  
