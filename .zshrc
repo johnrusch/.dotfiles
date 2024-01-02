@@ -74,6 +74,8 @@ plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
+source $(brew --prefix nvm)/nvm.sh
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
